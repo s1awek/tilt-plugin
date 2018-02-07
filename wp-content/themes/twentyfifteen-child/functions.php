@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 // END ENQUEUE PARENT ACTION
 
 function create_post_type() {
-  register_post_type( 'acme_product',
+  register_post_type( 'Tilt',
     array(
       'labels' => array(
         'name' => __( 'Tilt' ),
