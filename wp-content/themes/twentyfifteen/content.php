@@ -15,7 +15,6 @@
 		// Post thumbnail.
 		twentyfifteen_post_thumbnail();
 	?>
-
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) :
